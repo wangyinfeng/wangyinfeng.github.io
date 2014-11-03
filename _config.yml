@@ -22,9 +22,10 @@ blog:
     description: Cogito ergo sum
     title: I think therefore I am
     url: wangyinfeng.github.io
+
 author:
     name: Leo
     email: wang.batman@gmail.com
     weibo: http://www.weibo.com/u/1619196553
-    github: github.com/wangyinfeng
+    github: http://github.com/wangyinfeng
     logo: /res/img/logo.jpg
