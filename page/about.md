@@ -1,6 +1,5 @@
 ---
 layout: blog
-title: 关于
+title: about me
 ---
-
-我能吞下玻璃而不伤身体  
+Who am I, where did I come from, where I will go.
