@@ -8,7 +8,7 @@ layout: null
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <link rel="icon" href="/res/img/favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="/res/img/favicon.ico" type="image/x-icon">
-  <title>找不到页面了...</title>
+  <title>Opps...</title>
   <link rel="stylesheet" href="/res/css/404.css">
   {% include tongji.html %}
 </head>
@@ -17,8 +17,7 @@ layout: null
     <img src="/res/img/404/404.png" class="png"/>
   </div>
   <div class="tips">
-    <p>找不到页面了...</p>
-    <p>一定是你打开方式不对...</p>
+    <p>Opps...</p>
     <p id="view"/>
   </div>
   <div id="cloud" class="png"></div>
@@ -27,7 +26,7 @@ layout: null
   var t = 5;
   setInterval("testTime()", 1000);
   function testTime() {
-    view.innerHTML = t + " 秒后跳转至首页...";
+    view.innerHTML = t + " Will goto the index page...";
     if(t == 0) {
       location="{{ site.blog.url }}";
     }
