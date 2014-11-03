@@ -1,8 +1,22 @@
-markdown: kramdown
+#markdown: kramdown
+markdown: redcarpet
 highlighter: pygments
 permalink: blog/:year/:month/:day/:title.html
-paginate: 6
+paginate: 5
 paginate_path: page/:num
+encoding: "utf-8"
+future: true
+lsi: false
+safe: true
+
+redcarpet:
+    extensions:
+        - with_toc_data
+        - hard_wrap
+        - no_intra_emphasis
+        - tables
+        - fenced_code_blocks
+        - autolink
 
 blog:
     name:THINK
