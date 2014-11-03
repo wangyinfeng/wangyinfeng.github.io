@@ -32,6 +32,6 @@ author:
     weibo:http://www.weibo.com/u/1619196553
     github:github.com/wangyinfeng
     logo:/res/img/logo.jpg
-    douban:
-        name:http://www.douban.com/people/3526052
+#    douban:
+#        name:http://www.douban.com/people/3526052
 #        key:                                             # API Key
