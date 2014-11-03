@@ -31,7 +31,7 @@ author:
     email:wang.batman@gmail.com
     weibo:http://www.weibo.com/u/1619196553
     github:github.com/wangyinfeng
-#    logo:                                                # logo地址
+    logo:/res/img/logo.jpg
     douban:
         name:http://www.douban.com/people/3526052/
-#        key:                                             # 豆瓣API Key
+#        key:                                             # API Key
