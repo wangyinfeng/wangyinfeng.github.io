@@ -7,3 +7,4 @@ Forked from pexcn/JekllLight.
 - support comments
 - support catalog
 
+refrence: https://github.com/daodaoliang/daodaoliang.github.com
