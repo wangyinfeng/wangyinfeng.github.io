@@ -11,16 +11,19 @@ Wang Yinfeng - 王银锋
 Phone: 	**1865-1692-775**  
 Email: **wang.batman@gmail.com**  
 Objective: **Linux BSP Engineer**  
+
 _____________________________
 
 ##Self- appraisal
 An accomplished software engineer specializing in embedded software/hardware design and develop with extensive experience; Technical background includes industry embedded system, telecommunication, and data communication; Good English communication skills and global teamwork experience; Willing to innovate, to accept challenge, and to learn new knowledge. 
+
 ___________________________
 
 ##Working Experience
 - 2012.2  -   Now   [2 years 9 months] IBM CSTL System Networking/GTS SDN 
 - 2009.2  -  2012.2  [3 years] Nanjing ZTE corporation
 - 2008.6  -  2009.2  [8 month] Guangzhou Southern Power Group Technology Development Corporation.
+
 ______________________________
 
 ##Education
@@ -28,6 +31,7 @@ ______________________________
  Master of Telecommunications and Information System
  - 2002.9 - 2006.6 Huazhong University of Science and Technology, Department of Telecommunications  
  Bachelor of Telecommunications Engineering
+
 ______________________________ 
 
 ##Professional skills
@@ -37,6 +41,7 @@ ______________________________
 - Rich experience about ARM/MCU based border design, include schematic design, PCB layout, board bring up, bootloader and OS(uCOS/Linux) porting, device driver, Linux kernel tailoring;
 - Good theoretical knowledge and implement experience of telecommunication systems, especially for SS7 protocol, Sigtran protocol suite, etc; 
 - Good theoretical knowledge and implement experience about data communication, familiar with TCP/IP, routing protocols(OSPF);
+
 _______________________________
 
 ##Working experience
@@ -131,12 +136,14 @@ The Ethernet switch is used in FTU production, is designed for industry requires
  - My works and achivement  
 I was responsible for developing a 24 ports Ethernet switch based on ARM(S3C2410) and Boardcom BCM5324 chip. Main work include schematic design, PCB layout and bootloader (U-Boot) porting, Linux OS(2.4.18/2.6.14) tailoring.   
 And assist to do EMC/ESD test.  
+
 ____________________________________
 
 ##Rewards Events
 - First prize of the 7th National undergraduate Electronic Design Contest 2007
 - Patent: A method to enhance the reliability of industrial wireless sensor networks 2008
 - Patent: A message processing method and device 2011
+
 ________________________________________
 
 ##Language skill
