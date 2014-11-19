@@ -8,9 +8,9 @@ TODO:
 -->
 Wang Yinfeng - 王银锋
 ===============
-Phone: 	**1865-1692-775**
-Email: **wang.batman@gmail.com**
-Objective: **Linux BSP Engineer**
+Phone: 	**1865-1692-775**  
+Email: **wang.batman@gmail.com**  
+Objective: **Linux BSP Engineer**  
 _____________________________
 ##Self- appraisal
 An accomplished software engineer specializing in embedded software/hardware design and develop with extensive experience; Technical background includes industry embedded system, telecommunication, and data communication; Good English communication skills and global teamwork experience;  Willing to innovate, to accept challenge, and to learn new knowledge. 
@@ -35,7 +35,6 @@ ___________________________
 - Rich experience about ARM/MCU based border design, include schematic design, PCB layout, board bring up, bootloader and OS(uCOS/Linux) porting, device driver, Linux kernel tailoring;
 - Good theoretical knowledge and implement experience of telecommunication systems, especially for SS7 protocol, Sigtran protocol suite, etc; 
 - Good theoretical knowledge and implement experience about data communication, familiar with TCP/IP, routing protocols(OSPF);
-                                                                                                     
 
 _______________________________
 ##Working experience
@@ -44,11 +43,11 @@ Department: SDN-VE
 Position: Staff Software Engineer
 Projects: 
 
-- Routing appliance for DOVE and OpenStack
- - Project introduction
-Routing appliance is a plugin for IBM DOVE(Distributed Overlay Virtual Ethernet) product, it’s used to advertise routing info to internet, to provide interconnections between VMs(virtual machine) and external physical network.
- - My works and achivement
-I was responsible for merging routing protocols (OSPF/BGP) to DOVE, which provides the ability to import and distribute the routing tables, and provides tunnel function for these protocols;
+- Routing appliance for DOVE and OpenStack  
+ - Project introduction  
+Routing appliance is a plugin for IBM DOVE(Distributed Overlay Virtual Ethernet) product, it’s used to advertise routing info to internet, to provide interconnections between VMs(virtual machine) and external physical network.  
+ - My works and achivement  
+I was responsible for merging routing protocols (OSPF/BGP) to DOVE, which provides the ability to import and distribute the routing tables, and provides tunnel function for these protocols;  
 And developed the REST APIs for the routing appliance, provide northbound interface to the SDN controller (IBM Pinnacle/OpenStack).
 
 ####2012.2  -  2014.2 IBM CSTL
