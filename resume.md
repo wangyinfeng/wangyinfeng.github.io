@@ -52,7 +52,7 @@ Projects:
 
 - Routing appliance for DOVE and OpenStack  
  - Project introduction  
-Routing appliance is a plugin for IBM DOVE(Distributed Overlay Virtual Ethernet) product, it’s used to advertise routing info to internet, to provide interconnections between VMs(virtual machine) and external physical network.  
+IBM Dove(Distributed Overlay Virtual Ethernet) is an architecture that allows a network engineer to abstract the physical network infrastructure from hypervisor hosts and make network changes in software. Routing appliance is a plugin for IBM DOVE(Distributed Overlay Virtual Ethernet) product, it’s used to advertise routing info to internet, to provide interconnections between VMs(virtual machine) and external physical network.  
  - My works and achivement  
 I was responsible for merging routing protocols (OSPF/BGP) to DOVE, which provides the ability to import and distribute the routing tables, and provides tunnel function for these protocols;  
 And developed the REST APIs for the routing appliance, provide northbound interface to the SDN controller (IBM Pinnacle/OpenStack).
