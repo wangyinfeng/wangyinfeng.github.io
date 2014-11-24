@@ -1,11 +1,3 @@
-<!--
-Comments:
-Using markdown to maintain the resume.
-Easy to diff between different versions of files, update one file, synch  to all
-
-TODO:
-- Page break?
--->
 Wang Yinfeng - 王银锋
 ===============
 Phone: 	**1865-1692-775**  
@@ -77,7 +69,7 @@ And developed new approach to speed up image file transfer, by using the benefit
 And fixed massive bugs related with HW-specified, thread deadlock, CPU spike, CLI, SNMP etc.  
 - Heterogeneous switch StockCar  
  - Project introduction   
-StockCar is IBM's next generation stacking platform, which is similar to the Cisco's FabricPath solution used in it’s UCS product. It provides a simple and flexible way to manage network inside data center, centralizes the management panel with the aggregation TOR switch to control massive access Embedded switch, provides virtualization function based on current hardware.  
+StockCar is IBM's next generation stacking platform, which is similar to the Cisco's FabricPath solution used in it's UCS product. It provides a simple and flexible way to manage network inside data center, centralizes the management panel with the aggregation TOR switch to control massive access Embedded switch, provides virtualization function based on current hardware.  
  - My works and achivement  
 I was the technical leader of China stacking project team, focused on communicate with global team, assisted project manager to do development progress trace and bug fix schedule.  
 Was mainly responsible for the FoD(Feature on Demand) feature development, which provide the solution to support dynamic port resource requirement according to the software license installed.  
@@ -93,7 +85,7 @@ Projects:
 
 - SIU-V3 SMS signaling platform  
  - Project introduction   
-SIU(Signaling Interface Unit) is a SMS(Short Message Service) signaling platform, based on ZTE’s MSG9000 hardware and VxWorks OS.  
+SIU(Signaling Interface Unit) is a SMS(Short Message Service) signaling platform, based on ZTE's MSG9000 hardware and VxWorks OS.  
  - My works and achivement  
 I was mainly responsible for GSM SMS signaling developing, involving MAP/TCAP/SCCP signaling protocols. Developed the signaling trace module to trace signaling message flow bi-directional, provided method to do signaling analysis without extra signaling equipment.  
 Developed signaling gateway which provide signaling transfer between GSM and CDMA protocols.  
@@ -108,7 +100,7 @@ Developed signaling emulation based on PC to provide function and performance te
 And overseas technical support. July 2010 to December 2010, assignment overseas (France) supporting work, responsible for signaling IOT testing, network testing and other support work.  
 - SIU-V4 SMS signaling platform  
  - Project introduction  
-SIU-V4 is based on ZTE’s next generation USAP1000 hardware and Linux OS.  
+SIU-V4 is based on ZTE's next generation USAP1000 hardware and Linux OS.  
  - My works and achivement  
 I was mainly responsible for the signaling protocol porting (from SIU-V3 platform to SIU-V4 platform), involving MAP/TCAP/SCCP signaling protocol.  
 And on-site support work.  
