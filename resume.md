@@ -70,14 +70,14 @@ Stacking is a method of connect two or more physical switch chips to build a lar
 I was responsible for porting stacking function to the new hardware platform, based on the MPC8536, BCM56840 and Linux platform, developed low level device drivers for new transceiver(via I2C), optimized port bit mapping, reduced CPU load by separating transceiver management to new thread, and fixed massive bugs about LACP/STP.  
 - TOR switch Gryphon stacking  
  - Project introduction  
-Gryphon is IBM’s second generation all 10G standalone TOR (Top of Rack) switch.  
+Gryphon is IBM's second generation all 10G standalone TOR (Top of Rack) switch.  
  - My works and achivement  
 I was responsible for doing modification about the BCM SDK to adapting new hardware platform(from BCM56840 to BCM56846).   
 And developed new approach to speed up image file transfer, by using the benefit of the Boardcom HiGig technology to transfer file by ATP(Acknowledge Transfer Protocol) instead of socket, image file dispatch time was reduced by 90%.  
 And fixed massive bugs related with HW-specified, thread deadlock, CPU spike, CLI, SNMP etc.  
 - Heterogeneous switch StockCar  
  - Project introduction   
-StockCar is IBM’s next generation stacking platform, which is similar to the Cisco’s FabricPath solution used in it’s UCS product. It provides a simple and flexible way to manage network inside data center, centralizes the management panel with the aggregation TOR switch to control massive access Embedded switch, provides virtualization function based on current hardware.  
+StockCar is IBM's next generation stacking platform, which is similar to the Cisco's FabricPath solution used in it’s UCS product. It provides a simple and flexible way to manage network inside data center, centralizes the management panel with the aggregation TOR switch to control massive access Embedded switch, provides virtualization function based on current hardware.  
  - My works and achivement  
 I was the technical leader of China stacking project team, focused on communicate with global team, assisted project manager to do development progress trace and bug fix schedule.  
 Was mainly responsible for the FoD(Feature on Demand) feature development, which provide the solution to support dynamic port resource requirement according to the software license installed.  
