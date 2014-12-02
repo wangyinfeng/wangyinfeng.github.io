@@ -2,7 +2,7 @@ Wang Yinfeng - 王银锋
 ===============
 Phone: 	**1865-1692-775**  
 Email: **wang.batman@gmail.com**  
-Objective: **Linux BSP Engineer**  
+Objective: **E-Car Firmware Developer**  
 
 _____________________________
 
@@ -32,7 +32,7 @@ ______________________________
 - Good skills about developing on Linux platform, and using tools such as gcc, gdb, gprof, DUMA etc;
 - Rich experience about ARM/MCU based border design, include schematic design, PCB layout, board bring up, bootloader and OS(uCOS/Linux) porting, device driver, Linux kernel tailoring;
 - Good theoretical knowledge and implement experience of telecommunication systems, especially for SS7 protocol, Sigtran protocol suite, etc; 
-- Good theoretical knowledge and implement experience about data communication, familiar with TCP/IP, routing protocols(OSPF);
+- Good theoretical knowledge and implement experience about data communication, familiar with TCP/IP, routing protocols(OSPF/BGP);
 
 _______________________________
 
@@ -112,7 +112,7 @@ Projects:
 
 - FTU embedded controller  
  - Project introduction  
-FTU (Feeder Automation terminal) is used for the grid status detection, provides monitoring for power line operating parameters (short circuit protection, overcurrent protection), etc. The FTU embedded controller is a general control platform, provide various interface such as AD/DA, GPIO, IrDA, RS485, I2C, SPI, Ethernet, video etc.  
+FTU (Feeder Automation terminal) is used for the grid status detection, provides monitoring for power line operating parameters (short circuit protection, overcurrent protection), etc. The FTU embedded controller is a general control platform, provide various interface such as AD/DA, GPIO, IrDA, RS232, RS485, I2C, SPI, Ethernet, video etc.  
  - My works and achivement  
 I was responsible for development and testing the core control device. Designed the controller board based on ARM(S3C2440) and Linux platform, main work include schematic design, PCB layout, board bring up, bootloader (U-Boot) porting, Linux (2.4.18/2.6.14) tailoring and device driver(AD/DA, relay, I2C, SPI) developing.  
 And responsible for the EMC/ESD testing for the embedded controller, passed the verification from China electric power research institute after version 4.  
