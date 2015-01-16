@@ -12,7 +12,7 @@ An accomplished software engineer specializing in embedded software/hardware des
 ___________________________
 
 ##Working Experience
-- 2012.2  -   Now   [2 years 11 months] IBM CSTL System Networking/GTS SDN 
+- 2012.2  -   Now   [3 years] IBM CSTL System Networking/GTS SDN 
 - 2009.2  -  2012.2  [3 years] Nanjing ZTE corporation
 - 2008.6  -  2009.2  [8 month] Guangzhou Southern Power Group Technology Development Corporation.
 
