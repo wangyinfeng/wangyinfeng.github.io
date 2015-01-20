@@ -46,11 +46,9 @@ export OS_PASSWORD=38f9888e7ab9455e
 export OS_AUTH_URL=http://9.111.77.68:5000/v2.0/
 ```
 
-```
-```
-
 ##Un-installation
 Use the following [script](http://tuxlabs.com/?p=82) to do the uninstall operation:
+```
 ```sh
  #!/bin/bash
  
@@ -82,6 +80,7 @@ find /etc/pki/tls -name "ssl_ps*" | xargs rm -rf ;
 for x in $(df | grep "/lib/" | sed -e 's/.* //g') ; do
     umount $x ;
 done
+```
 ```
 
 ##Issues
