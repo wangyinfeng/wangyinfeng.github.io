@@ -10,7 +10,7 @@ Configure the network adapter, add at least 2 adapters, and configure the DNS se
 
 Disable `SELINUX` by modify the file `/etc/selinux/config`.
 
-Replace the yum repository with local repository  
+Replace the yum repository with local repository:
 ```sh
 [root@openstack]#cd /etc/yum.repos.d/  
 [root@openstack]#mv CentOS-Base.repo CentOS-Base.repo.bak  
@@ -20,16 +20,16 @@ Replace the yum repository with local repository
 [root@openstack]#yum makecache  
 ```
 
-Install the [`RDO(Red Hat Distribution of OpenStack)`](https://openstack.redhat.com/Main_Page). RDO is "a freely available, community-supported distribution of OpenStack that runs on Red Hat Enterprise Linux, Fedora and their derivatives".  
+Install the [`RDO(Red Hat Distribution of OpenStack)`](https://openstack.redhat.com/Main_Page). RDO is "a freely available, community-supported distribution of OpenStack that runs on Red Hat Enterprise Linux, Fedora and their derivatives".
 ```sh
 [root@openstack]#yum install -y http://rdo.fedorapeople.org/rdo-release.rpm
-```  
-If the rdo distribution is not what you deseried, provide the full path:  
+```
+If the rdo distribution is not what you deseried, provide the full path:
 ```sh
 [root@openstack]#yum install https://repos.fedorapeople.org/repos/openstack/openstack-icehouse/epel-6/rdo-release-icehouse-4.noarch.rpm
-```  
+```
 
-Install the `packstack`, it's a python script, located at `/usr/bin/packstack`. (what does `run_setup.main()` do?)  
+Install the `packstack`, it's a python script, located at `/usr/bin/packstack`. (what does `run_setup.main()` do?)
 ```sh
 [root@openstack]#yum install -y openstack-packstack
 ```
@@ -37,7 +37,7 @@ Install the `packstack`, it's a python script, located at `/usr/bin/packstack`. 
 ##Installation
 The install package is a serials of python scripts, locate at `/usr/lib/python2.6/site-packages/packstack/`.
 
-After successful install, get the username and password from the file:  
+After successful install, get the username and password from the file:
 ```sh
 [root@openstack ~]# cat keystonerc_admin 
 export OS_USERNAME=admin
@@ -48,7 +48,7 @@ export PS1='[\u@\h \W(keystone_admin)]\$ '
 ```
 
 ##Un-installation
-Use the following [script](http://tuxlabs.com/?p=82) to do the uninstall operation.   
+Use the following [script](http://tuxlabs.com/?p=82) to do the uninstall operation:
 ```sh
  #!/bin/bash
  
