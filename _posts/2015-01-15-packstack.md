@@ -8,7 +8,7 @@ Going to develop under OpenStack, deploy an OpenStack enviroment is the basic sk
 ##Perpartion
 - Configure the network adapter, add at least 2 adapters, and configure the DNS server, gateway etc, to make sure one of them can access the internet.
 - Disable `SELINUX` by modify the file `/etc/selinux/config`.
-- Replace the yum repository with local repository
+- Replace the yum repository with local repository  
  ```sh
  [root@openstack]#cd /etc/yum.repos.d/
  [root@openstack]#mv CentOS-Base.repo CentOS-Base.repo.bak
@@ -33,7 +33,7 @@ Going to develop under OpenStack, deploy an OpenStack enviroment is the basic sk
 ##Installation
 The install package is a serials of python scripts, locate at `/usr/lib/python2.6/site-packages/packstack/`.
 
-After successful install, get the username and password from the file:
+After successful install, get the username and password from the file:  
 ```sh
 [root@openstack ~]# cat keystonerc_admin 
 export OS_USERNAME=admin
@@ -44,9 +44,8 @@ export PS1='[\u@\h \W(keystone_admin)]\$ '
 ```
 
 ##Un-installation
-Use the following [script](http://tuxlabs.com/?p=82) to do the uninstall operation.  
+Use the following [script](http://tuxlabs.com/?p=82) to do the uninstall operation.   
 ```sh
- 
 #!/bin/bash
  
 # Warning! Dangerous step! Destroys VMs
