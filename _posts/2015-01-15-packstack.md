@@ -21,7 +21,7 @@ Going to develop under OpenStack, deploy an OpenStack enviroment is the basic sk
 ```sh
 [root@openstack]#yum install -y http://rdo.fedorapeople.org/rdo-release.rpm
 ```  
-If the rdo distribution is not what you deseried, provide the full path:  
+ If the rdo distribution is not what you deseried, provide the full path:  
 ```sh
 [root@openstack]#yum install https://repos.fedorapeople.org/repos/openstack/openstack-icehouse/epel-6/rdo-release-icehouse-4.noarch.rpm
 ```  
