@@ -29,7 +29,7 @@ If the rdo distribution is not what you deseried, provide the full path:
 [root@openstack]#yum install https://repos.fedorapeople.org/repos/openstack/openstack-icehouse/epel-6/rdo-release-icehouse-4.noarch.rpm
 ```
 
-Install the `packstack`, it's a python script, located at `/usr/bin/packstack`. (what does `run_setup.main()` do?)
+Install the `packstack`, it's a python script, located at `/usr/bin/packstack`.(what does `run_setup.main()` do?)
 ```sh
 [root@openstack]#yum install -y openstack-packstack
 ```
@@ -48,7 +48,6 @@ export OS_AUTH_URL=http://9.111.77.68:5000/v2.0/
 
 ##Un-installation
 Use the following [script](http://tuxlabs.com/?p=82) to do the uninstall operation:
-```
 ```sh
  #!/bin/bash
  
@@ -80,7 +79,6 @@ find /etc/pki/tls -name "ssl_ps*" | xargs rm -rf ;
 for x in $(df | grep "/lib/" | sed -e 's/.* //g') ; do
     umount $x ;
 done
-```
 ```
 
 ##Issues
