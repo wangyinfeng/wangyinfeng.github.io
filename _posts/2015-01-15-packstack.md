@@ -46,6 +46,7 @@ export PS1='[\u@\h \W(keystone_admin)]\$ '
 ##Un-installation
 Use the following [script](http://tuxlabs.com/?p=82) to do the uninstall operation.
 ```sh
+
 #!/bin/bash
  
 # Warning! Dangerous step! Destroys VMs
@@ -53,7 +54,7 @@ for x in $(virsh list --all | grep instance- | awk '{print $2}') ; do
     virsh destroy $x ;
     virsh undefine $x ;
 done ;
- 
+
 # Warning! Dangerous step! Removes lots of packages
 yum remove -y nrpe "*nagios*" puppet "*ntp*" "*openstack*" \
 "*nova*" "*keystone*" "*glance*" "*cinder*" "*swift*" \
