@@ -9,14 +9,14 @@ Going to develop under OpenStack, deploy an OpenStack enviroment is the basic sk
 - Configure the network adapter, add at least 2 adapters, and configure the DNS server, gateway etc, to make sure one of them can access the internet.
 - Disable `SELINUX` by modify the file `/etc/selinux/config`.
 - Replace the yum repository with local repository  
- ```sh
- [root@openstack]#cd /etc/yum.repos.d/
- [root@openstack]#mv CentOS-Base.repo CentOS-Base.repo.bak
- [root@openstack]#wget http://mirrors.163.com/.help/CentOS-Base-163.repo
- [root@openstack]#mv CentOS-Base163.repo CentOS-Base.repo
- [root@openstack]#yum clan all
- [root@openstack]#yum makecache
- ```
+```sh
+[root@openstack]#cd /etc/yum.repos.d/
+[root@openstack]#mv CentOS-Base.repo CentOS-Base.repo.bak
+[root@openstack]#wget http://mirrors.163.com/.help/CentOS-Base-163.repo
+[root@openstack]#mv CentOS-Base163.repo CentOS-Base.repo
+[root@openstack]#yum clan all
+[root@openstack]#yum makecache
+```
 - Install the [`RDO(Red Hat Distribution of OpenStack)`](https://openstack.redhat.com/Main_Page). RDO is "a freely available, community-supported distribution of OpenStack that runs on Red Hat Enterprise Linux, Fedora and their derivatives".  
  ```sh
  [root@openstack]#yum install -y http://rdo.fedorapeople.org/rdo-release.rpm
