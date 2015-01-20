@@ -46,7 +46,7 @@ export PS1='[\u@\h \W(keystone_admin)]\$ '
 ##Un-installation
 Use the following [script](http://tuxlabs.com/?p=82) to do the uninstall operation.
 ```sh
-
+ 
 #!/bin/bash
  
 # Warning! Dangerous step! Destroys VMs
