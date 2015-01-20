@@ -18,17 +18,17 @@ Going to develop under OpenStack, deploy an OpenStack enviroment is the basic sk
 [root@openstack]#yum makecache
 ```
 - Install the [`RDO(Red Hat Distribution of OpenStack)`](https://openstack.redhat.com/Main_Page). RDO is "a freely available, community-supported distribution of OpenStack that runs on Red Hat Enterprise Linux, Fedora and their derivatives".  
- ```sh
- [root@openstack]#yum install -y http://rdo.fedorapeople.org/rdo-release.rpm
- ```  
- If the rdo distribution is not what you deseried, provide the full path:  
- ```sh
- [root@openstack]#yum install https://repos.fedorapeople.org/repos/openstack/openstack-icehouse/epel-6/rdo-release-icehouse-4.noarch.rpm
- ```  
+```sh
+[root@openstack]#yum install -y http://rdo.fedorapeople.org/rdo-release.rpm
+```  
+If the rdo distribution is not what you deseried, provide the full path:  
+```sh
+[root@openstack]#yum install https://repos.fedorapeople.org/repos/openstack/openstack-icehouse/epel-6/rdo-release-icehouse-4.noarch.rpm
+```  
 - Install the `packstack`, it's a python script, located at `/usr/bin/packstack`. (what does `run_setup.main()` do?)  
- ```sh  
- [root@openstack]#yum install -y openstack-packstack
- ```
+```sh  
+[root@openstack]#yum install -y openstack-packstack
+```
 
 ##Installation
 The install package is a serials of python scripts, locate at `/usr/lib/python2.6/site-packages/packstack/`.
@@ -46,21 +46,21 @@ export PS1='[\u@\h \W(keystone_admin)]\$ '
 ##Un-installation
 Use the following [script](http://tuxlabs.com/?p=82) to do the uninstall operation.   
 ```sh
-#!/bin/bash
+ #!/bin/bash
  
-# Warning! Dangerous step! Destroys VMs
+ # Warning! Dangerous step! Destroys VMs
 for x in $(virsh list --all | grep instance- | awk '{print $2}') ; do
     virsh destroy $x ;
     virsh undefine $x ;
 done ;
 
-# Warning! Dangerous step! Removes lots of packages
+ # Warning! Dangerous step! Removes lots of packages
 yum remove -y nrpe "*nagios*" puppet "*ntp*" "*openstack*" \
 "*nova*" "*keystone*" "*glance*" "*cinder*" "*swift*" \
 mysql mysql-server httpd "*memcache*" scsi-target-utils \
 iscsi-initiator-utils perl-DBI perl-DBD-MySQL ;
  
-# Warning! Dangerous step! Deletes local application data
+ # Warning! Dangerous step! Deletes local application data
 rm -rf /etc/nagios /etc/yum.repos.d/packstack_* /root/.my.cnf \
 /var/lib/mysql/ /var/lib/glance /var/lib/nova /etc/nova /etc/swift \
 /srv/node/device*/* /var/lib/cinder/ /etc/rsync.d/frag* \
