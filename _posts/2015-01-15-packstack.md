@@ -17,16 +17,16 @@ Going to develop under OpenStack, deploy an OpenStack enviroment is the basic sk
  [root@openstack]#yum clan all
  [root@openstack]#yum makecache
  ```
-- Install the [`RDO(Red Hat Distribution of OpenStack)`](https://openstack.redhat.com/Main_Page). RDO is "a freely available, community-supported distribution of OpenStack that runs on Red Hat Enterprise Linux, Fedora and their derivatives".
+- Install the [`RDO(Red Hat Distribution of OpenStack)`](https://openstack.redhat.com/Main_Page). RDO is "a freely available, community-supported distribution of OpenStack that runs on Red Hat Enterprise Linux, Fedora and their derivatives".  
  ```sh
  [root@openstack]#yum install -y http://rdo.fedorapeople.org/rdo-release.rpm
- ```
- If the rdo distribution is not what you deseried, provide the full path:
+ ```  
+ If the rdo distribution is not what you deseried, provide the full path:  
  ```sh
  [root@openstack]#yum install https://repos.fedorapeople.org/repos/openstack/openstack-icehouse/epel-6/rdo-release-icehouse-4.noarch.rpm
- ```
-- Install the `packstack`, it's a python script, located at `/usr/bin/packstack`. (what does `run_setup.main()` do?)
- ```sh
+ ```  
+- Install the `packstack`, it's a python script, located at `/usr/bin/packstack`. (what does `run_setup.main()` do?)  
+ ```sh  
  [root@openstack]#yum install -y openstack-packstack
  ```
 
