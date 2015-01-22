@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Step to step to install OpenStack with packstack
-category: C
+category: openstack
 ---
 Going to develop under OpenStack, deploy an OpenStack enviroment is the basic skill.
 
@@ -20,7 +20,7 @@ Replace the yum repository with local repository:
 [root@openstack]#yum makecache  
 ```
 
-Install the [`RDO(Red Hat Distribution of OpenStack)`](https://openstack.redhat.com/Main_Page). RDO is "a freely available, community-supported distribution of OpenStack that runs on Red Hat Enterprise Linux, Fedora and their derivatives".
+Install the [`RDO(Red Hat Distribution of OpenStack)`](https://openstack.redhat.com/Main_Page). RDO is "a freely available, community-supported distribution of OpenStack that runs on Red Hat Enterprise Linux, Fedora and their derivatives". 
 ```sh
 [root@openstack]#yum install -y http://rdo.fedorapeople.org/rdo-release.rpm
 ```
@@ -45,6 +45,10 @@ export OS_TENANT_NAME=admin
 export OS_PASSWORD=38f9888e7ab9455e
 export OS_AUTH_URL=http://9.111.77.68:5000/v2.0/
 ```
+
+###All-in-one
+
+###Separated
 
 ##Un-installation
 Use the following [script](http://tuxlabs.com/?p=82) to do the uninstall operation:
@@ -115,3 +119,5 @@ gpgcheck=0
 EPEL(Extra Packages for Enterprise Linux) is maintained by Fedora, the CentOS/RedHat need to use the correct EPEL versionr, beacause the binary packages are build with the system compiler and linked against all the libraries provided by the repository.
 EPEL7 requires python 2.7, EPEL requires python 2.6.
 
+##Reference
+[RDO quick start](https://openstack.redhat.com/Quickstart)
