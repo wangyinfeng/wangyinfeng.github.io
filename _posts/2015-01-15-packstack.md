@@ -11,6 +11,7 @@ Configure the network adapter, add at least 2 adapters, and configure the DNS se
 Disable `SELINUX` by modify the file `/etc/selinux/config`.
 
 Replace the yum repository with local repository:
+
 ```sh
 [root@openstack]#cd /etc/yum.repos.d/  
 [root@openstack]#mv CentOS-Base.repo CentOS-Base.repo.bak  
@@ -21,15 +22,18 @@ Replace the yum repository with local repository:
 ```
 
 Install the [`RDO(Red Hat Distribution of OpenStack)`](https://openstack.redhat.com/Main_Page). RDO is "a freely available, community-supported distribution of OpenStack that runs on Red Hat Enterprise Linux, Fedora and their derivatives". 
+
 ```sh
 [root@openstack]#yum install -y http://rdo.fedorapeople.org/rdo-release.rpm
 ```
 If the rdo distribution is not what you deseried, provide the full path:
+
 ```sh
 [root@openstack]#yum install https://repos.fedorapeople.org/repos/openstack/openstack-icehouse/epel-6/rdo-release-icehouse-4.noarch.rpm
 ```
 
 Install the `packstack`, it's a python script, located at `/usr/bin/packstack`.(what does `run_setup.main()` do?)
+
 ```sh
 [root@openstack]#yum install -y openstack-packstack
 ```
@@ -38,6 +42,7 @@ Install the `packstack`, it's a python script, located at `/usr/bin/packstack`.(
 The install package is a serials of python scripts, locate at `/usr/lib/python2.6/site-packages/packstack/`.
 
 After successful install, get the username and password from the file:
+
 ```sh
 [root@openstack ~]# cat keystonerc_admin 
 export OS_USERNAME=admin
@@ -52,6 +57,7 @@ export OS_AUTH_URL=http://9.111.77.68:5000/v2.0/
 
 ##Un-installation
 Use the following [script](http://tuxlabs.com/?p=82) to do the uninstall operation:
+
 ```sh
  #!/bin/bash
  
@@ -87,6 +93,7 @@ done
 
 ##Issues
 ###yum update report python verison error
+
 ```  
 Error: Package: python-netaddr-0.7.12-1.el7.centos.noarch (openstack)
            Requires: python(abi) = 2.7
@@ -97,6 +104,7 @@ The python used by CentOS 6.5 is 2.6 instead of 2.7, and due to lots of tools de
 
 
 ###Repostory URL error
+
 ```sh
 [root@openstack yum.repos.d]# yum makecache
 openstack                                                                      | 2.9 kB     00:00     
@@ -108,6 +116,7 @@ It's because the **baseurl** in the openstack.repo is not correct.
 When install OpenStack with RDO, should be careful about the EPEL version, some distribution doesn't have proper EPEL support. For example, the **Juno** only has EPEL7, while **IceHouse** has both EPEL6 and EPEL7. Browse the `https://repos.fedorapeople.org/repos/openstack/` to confirm the EPEL version.
 
 Because the host OS version is CentOS 6.5, which should use EPEL6, not EPEL7, and Juno not have EPEL6 supported, so I chose install OpenStack IceHouse instead of Juno.
+
 ```sh
 [root@openstack /]# cat /etc/yum.repos.d/openstack.repo 
 [openstack]  
