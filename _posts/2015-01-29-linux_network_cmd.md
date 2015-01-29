@@ -3,8 +3,8 @@ layout: post
 title: Commands to check networking status on Linux
 category: Linux
 ---
-
 Check the ARP table
+
 ```sh
 [root@localhost ~]# arp -e
 Address                  HWtype  HWaddress           Flags Mask            Iface
@@ -14,6 +14,7 @@ Address                  HWtype  HWaddress           Flags Mask            Iface
 ```
 
 Check the FDB of bridge
+
 ```sh
 [root@localhost ~]# brctl showmacs brX
 port no mac addr                is local?       ageing timer
@@ -28,6 +29,7 @@ port no mac addr                is local?       ageing timer
 ```
 
 Check the RIB
+
 ```sh
 [root@localhost ~]# ip route show 
 169.254.95.0/24 dev usb0  proto kernel  scope link  src 169.254.95.120  metric 1 
@@ -39,6 +41,7 @@ default via 9.111.77.1 dev br0
 ```
 
 Check the FIB
+
 ```
 [root@localhost ~]# ip route show cache
 local 169.254.95.120 from 169.254.95.118 dev lo  src 169.254.95.120 
@@ -56,6 +59,7 @@ local 9.111.77.66 from 9.110.41.25 dev lo  src 9.111.77.66
 169.254.95.118 from 169.254.95.120 dev usb0 
     cache  ipid 0x3a3b mtu 1500 advmss 1460 hoplimit 64
 ```
+
 FIB is a subet of RIB, cache for the most frequency used paths.
 
 #Reference
