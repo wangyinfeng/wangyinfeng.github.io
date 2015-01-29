@@ -42,7 +42,7 @@ default via 9.111.77.1 dev br0
 
 Check the FIB
 
-```
+```sh
 [root@localhost ~]# ip route show cache
 local 169.254.95.120 from 169.254.95.118 dev lo  src 169.254.95.120 
     cache <local,src-direct>  iif usb0
