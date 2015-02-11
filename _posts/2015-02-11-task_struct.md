@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Analysis the task_sturct in Linux kernel
-category: 
+categories: 
 - Kernel
 - linux
 ---
