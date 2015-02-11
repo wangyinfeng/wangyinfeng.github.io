@@ -39,6 +39,14 @@ Using Bitvise is just similar with the PuTTY:
 - Then at the **login** page, select the **client key** with the new generated profile.
 - Try and enjoy.
 
+#Serve for Android phone
+The key is let android have ssh client to connect the VPC and provide SOCKS proxy.
+- Download the [sshtunnel](https://code.google.com/p/sshtunnel/) and install, `root` maybe requested.
+- Set the server address, username, copy the private key to the phone, and select the key from the **key manager**.
+- Try to connect the VPC, and if connection is successful,
+- Select the **Proxy with SOCKS**, **Auto connection**, and select the app you allow to access the free world in **application proxy**
+- Then enjoy.
+
 #Issue
 - PuTTY will auto exit because long time no interactive with the VPC.
 - Don't understand why just import the private key `id_rsa` is not work. Why need to generate new pair of key.
@@ -48,3 +56,5 @@ Using Bitvise is just similar with the PuTTY:
 [install gem return 'certification verify failed'](http://stackoverflow.com/questions/19745960/unable-to-install-any-gem-by-ruby-in-windows)
 [Using PuTTY and Chrome](http://www.itordie.com/?p=50)
 [Using private/public key to access SSH server with Bitvise](https://www.webhostinghero.com/using-ssh-keys-with-adobe-dreamweaver/)
+[Android using SSH Tunnel](http://www.chekiang.info/2014/04/22.html)
+
