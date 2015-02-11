@@ -13,7 +13,7 @@ The [openshift](https://developers.openshift.com/) provide **free** VPC srevice.
 
 #Proxy by putty client
 - Useing the `PuTTY key generator` to **import** the public key(`id_rsa.pub`), then **save private key** with the `.ppk` suffix(*Don't know how it's possible to get the private key with the public key* ).
-- Open the `PuTTY`, **hostname** input the full name and url for the VPC, '54b5fcb...........@python-mfrc531.rhcloud.com' for example(Don't know how to get the username from the configure page, I get it when use `rhc` tool to login the VPC, the username will print on console).
+- Open the `PuTTY`, **hostname** input the full name and url for the VPC, '54b5fcb...........@python-mfrc531.rhcloud.com' for example(*Don't know how to get the username from the configure page, I get it when use `rhc` tool to login the VPC, the username will print on console*).
 - Select the private key(id_rsa) under [Connection]->[SSH]->[Auth].
 - Set the **source port** to the port you want to do proxy, for example 8888, and choice **Dynamic**.
 - Try login the VPC, and if login successful,
@@ -24,6 +24,7 @@ The [openshift](https://developers.openshift.com/) provide **free** VPC srevice.
 #Proxy by Bitvise SSH client
 The easy way to access the Openshift VPC with SSH is use the `rhc`, it requires the `git`, `ruby` and `rhc` toolchain. Follow the [How to access the openshift with ssh](https://developers.openshift.com/en/managing-remote-connection.html) to install necessary packages first. Sometimes when install the `rhc` will failed, just try more times.
 If your app name is 'python', access the openshift with the following command: 
+
 ```sh
 rhc ssh python
 ```
