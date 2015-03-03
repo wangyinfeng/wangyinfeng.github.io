@@ -44,10 +44,20 @@ Projects:
 
 - Routing appliance for DOVE and OpenStack  
  - Project introduction  
-IBM Dove(Distributed Overlay Virtual Ethernet) is an architecture that allows a network engineer to abstract the physical network infrastructure from hypervisor hosts and make network changes in software. Routing appliance is a plugin for IBM DOVE(Distributed Overlay Virtual Ethernet) product, it’s used to advertise routing info to internet, to provide interconnections between VMs(virtual machine) and external physical network.  
+IBM DOVE(Distributed Overlay Virtual Ethernet) is an architecture that allows a network engineer to abstract the physical network infrastructure from hypervisor hosts and make network changes in software. Routing appliance is a plugin for IBM DOVE product, it’s used to advertise the routing info to internet, provide interconnections between VMs(virtual machine) in hybrid cloud environment.  
  - My works and achivement  
-I was responsible for merging routing protocols (OSPF/BGP) to DOVE, which provides the ability to import and distribute the routing tables, and provides tunnel function for these protocols;  
-And developed the REST APIs for the routing appliance, provide northbound interface to the SDN controller (IBM Pinnacle/OpenStack).
+I was responsible for merging routing protocols (OSPF/BGP) to DOVE, which provides the ability to import and distribute the routing tables, and provides tunnel function(GRE) for these protocols;  
+Designed and developed the RESTful APIs for routing appliance, provided northbound interface to the SDN controller (IBM Pinnacle/OpenStack).  
+Developed the routing appliance HA(High Availability) feature.  
+- DevOps for DOVE     
+ - Project introduction  
+Could production requires auto deploy, and rapidly produce appliances and services to improve operations performance.  
+ - My works and achivement
+I was responsible for the routing and firewall modules, wrote scripts(Python and Shell) to do automatical testing and deploying.  
+- Customer support and POC demonstration  
+ - POC(Proof Of Concept) for Beijing Unicom;  
+ - POC for ICBC Shenzheng;  
+ - Provide supports and fix hotsite issues for Suning.  
 
 
 ####2012.2  -  2014.2 IBM CSTL
@@ -59,13 +69,13 @@ Projects:
  - Project introduction  
 Stacking is a method of connect two or more physical switch chips to build a larger system that behaves as a single logical entity, to provide high port density, centralized management, redundancy, modularity and flexible, distributed approach for data center network solution.  
  - My works and achivement  
-I was responsible for porting stacking function to the new hardware platform, based on the MPC8536, BCM56840 and Linux platform, developed low level device drivers for new transceiver(via I2C), optimized port bit mapping, reduced CPU load by separating transceiver management to new thread, and fixed massive bugs about LACP/STP.  
+I was responsible for porting stacking feature to the new hardware platform, the new hardware platform based on the MPC8536 CPU and BCM56840 network ASIC, the OS is IBM specified Linux(MCP); developed low level device drivers for new transceiver(via I2C), optimized port bit mapping, reduced CPU load by separating transceiver management to new thread, and fixed massive bugs about LACP/STP.  
 - TOR switch Gryphon stacking  
  - Project introduction  
 Gryphon is IBM's second generation all 10G standalone TOR (Top of Rack) switch.  
  - My works and achivement  
 I was responsible for doing modification about the BCM SDK to adapting new hardware platform(from BCM56840 to BCM56846).   
-And developed new approach to speed up image file transfer, by using the benefit of the Boardcom HiGig technology to transfer file by ATP(Acknowledge Transfer Protocol) instead of socket, image file dispatch time was reduced by 90%.  
+And developed new approach to speed up image file transfer, by using the benefit of the Boardcom HiGig technology to transfer the image files by ATP(Acknowledge Transfer Protocol) instead of socket, image files dispatch time was reduced by 90%.  
 And fixed massive bugs related with HW-specified, thread deadlock, CPU spike, CLI, SNMP etc.  
 - Heterogeneous switch StockCar  
  - Project introduction   
@@ -116,6 +126,7 @@ FTU (Feeder Automation terminal) is used for the grid status detection, provides
  - My works and achivement  
 I was responsible for development and testing the core control device. Designed the controller board based on ARM(S3C2440) and Linux platform, main work include schematic design, PCB layout, board bring up, bootloader (U-Boot) porting, Linux (2.4.18/2.6.14) tailoring and device driver(AD/DA, relay, I2C, SPI) developing.  
 And responsible for the EMC/ESD testing for the embedded controller, passed the verification from China electric power research institute after version 4.  
+
 
 ####2007.2  -  2008.6 Guangzhou Southern Power Group Technology Development Co., Ltd  
 Department: FTU Products Research Institute  
