@@ -29,10 +29,11 @@ ______________________________
 ##Professional skills
 - 7 years experiences in embedded system software and hardware development; 
 - Proficient at C programming language; good at Shell and Python scripts;
-- Good skills about developing on Linux platform, and using tools such as gcc, gdb, gprof, DUMA etc;
+- Good skills about developing on Linux platform, hands-on experience on compilers, toolchains, and debuggers;
 - Rich experience about ARM/MCU based board design, include schematic design, PCB layout, board bring up, bootloader customsize and OS(uCOS/Linux) porting, device driver, Linux kernel tailoring;
 - Good theoretical knowledge and implement experience of telecommunication systems, especially for SS7 protocol, Sigtran protocol suite, etc; 
 - Good theoretical knowledge and implement experience about data communication, proficient with TCP/IP, routing protocols(OSPF/BGP), DHCP/BOOTP, LACP, STP;
+- Familiar with source version control (ClearCase/Git/Subversion).
 
 _______________________________
 
