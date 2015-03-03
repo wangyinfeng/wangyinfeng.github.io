@@ -53,7 +53,7 @@ Developed the routing appliance HA(High Availability) feature.
 - DevOps for DOVE     
  - Project introduction  
 Could production requires auto deploy, and rapidly produce appliances and services to improve operations performance.  
- - My works and achivement
+ - My works and achivement  
 I was responsible for the routing and firewall modules, wrote scripts(Python and Shell) to do automatical testing and deploying.  
 - Customer support and POC demonstration  
  - POC(Proof Of Concept) for Beijing Unicom;  
