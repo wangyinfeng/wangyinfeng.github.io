@@ -2,7 +2,7 @@ Wang Yinfeng - 王银锋
 ===============
 Phone: 	**1865-1692-775**  
 Email: **wang.batman@gmail.com**  
-Objective: **Linux BSP Engineer**  
+Objective: **Software Engineer**  
 
 _____________________________
 
@@ -30,9 +30,9 @@ ______________________________
 - 7 years experiences in embedded system software and hardware development; 
 - Proficient at C programming language; good at Shell and Python scripts;
 - Good skills about developing on Linux platform, hands-on experience on compilers, toolchains, and debuggers;
-- Rich experience about ARM/MCU based board design, include schematic design, PCB layout, board bring up, bootloader customsize and OS(uCOS/Linux) porting, device driver, Linux kernel tailoring;
+- Good theoretical knowledge and rich development experience about switcher/router software; rich experiance about BCM SDK development;
+- Master IP routing and switching system architecture and routing protocols BGP, OSPF, PBR, VRRP, IPv6, etc. Solid experience with UNIX/Linux TCP/IP socket programming;
 - Good theoretical knowledge and implement experience of telecommunication systems, especially for SS7 protocol, Sigtran protocol suite, etc; 
-- Good theoretical knowledge and implement experience about data communication, proficient with TCP/IP, routing protocols(OSPF/BGP), DHCP/BOOTP, LACP, STP;
 - Familiar with source version control (ClearCase/Git/Subversion).
 
 _______________________________
@@ -47,7 +47,7 @@ Projects:
  - Project introduction  
 IBM DOVE(Distributed Overlay Virtual Ethernet) is an architecture that allows a network engineer to abstract the physical network infrastructure from hypervisor hosts and make network changes in software. Routing appliance is a plugin for IBM DOVE product, it’s used to advertise the routing info to internet, provide interconnections between VMs(virtual machine) in hybrid cloud environment.  
  - My works and achivement  
-I was responsible for merging routing protocols (OSPF/BGP) to DOVE, which provides the ability to import and distribute the routing tables, and provides tunnel function(GRE) for these protocols;  
+I was responsible for merging routing protocols (OSPF/BGP) to DOVE, which provides the ability to import and distribute the routing tables, and provides tunnel function(GRE) for routing protocols;  
 Designed and developed the RESTful APIs for routing appliance, provided northbound interface to the SDN controller (IBM Pinnacle/OpenStack).  
 Developed the routing appliance HA(High Availability) feature.  
 - DevOps for DOVE     
@@ -70,7 +70,7 @@ Projects:
  - Project introduction  
 Stacking is a method of connect two or more physical switch chips to build a larger system that behaves as a single logical entity, to provide high port density, centralized management, redundancy, modularity and flexible, distributed approach for data center network solution.  
  - My works and achivement  
-I was responsible for porting stacking feature to the new hardware platform, the new hardware platform based on the MPC8536 CPU and BCM56840 network ASIC, the OS is IBM specified Linux(MCP); developed low level device drivers for new transceiver(via I2C), optimized port bit mapping, reduced CPU load by separating transceiver management to new thread, and fixed massive bugs about LACP/STP.  
+I was responsible for porting stacking feature to the new hardware platform, the new hardware platform based on the MPC8536 CPU and BCM56840 ASIC, the OS is IBM specified Linux(MCP); developed low level device drivers for new transceiver(via I2C), optimized port bit mapping, reduced CPU load by separating transceiver management to new thread, and fixed massive bugs about LACP/STP.  
 - TOR switch Gryphon stacking  
  - Project introduction  
 Gryphon is IBM's second generation all 10G standalone TOR (Top of Rack) switch.  
