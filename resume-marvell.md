@@ -12,7 +12,7 @@ An accomplished software engineer specializing in embedded software/hardware des
 ___________________________
 
 ##Working Experience
-- 2012.2  -   Now   [3 years] IBM CSTL System Networking/GTS SDN 
+- 2012.2  -   Now   [3 years 1 month] IBM CSTL System Networking/GTS SDN 
 - 2009.2  -  2012.2  [3 years] Nanjing ZTE corporation
 - 2008.6  -  2009.2  [8 month] Guangzhou Southern Power Group Technology Development Corporation.
 
@@ -27,18 +27,18 @@ ______________________________
 ______________________________ 
 
 ##Professional skills
-- 6 years experiences in embedded system software and hardware development and testing; 
-- Proficient at C programming language; and familiar with Shell and Python scripts;
+- 7 years experiences in embedded system software and hardware development; 
+- Proficient at C programming language; familiar with Shell and Python scripts;
 - Good skills about developing on Linux platform, and using tools such as gcc, gdb, gprof, DUMA etc;
-- Rich experience about ARM/MCU based border design, include schematic design, PCB layout, board bring up, bootloader and OS(uCOS/Linux) porting, device driver, Linux kernel tailoring;
+- Rich experience about ARM/MCU based board design, include schematic design, PCB layout, board bring up, bootloader customsize and OS(uCOS/Linux) porting, device driver, Linux kernel tailoring;
 - Good theoretical knowledge and implement experience of telecommunication systems, especially for SS7 protocol, Sigtran protocol suite, etc; 
-- Good theoretical knowledge and implement experience about data communication, familiar with TCP/IP, routing protocols(OSPF);
+- Good theoretical knowledge and implement experience about data communication, proficient with TCP/IP, routing protocols(OSPF/BGP), DHCP/BOOTP, LACP, STP;
 
 _______________________________
 
 ##Working experience
 ####2014.2  -  now  IBM GTS CDL
-Department: SDN-VE  
+Department: Software Defined Network and Virtual Environment  
 Position: Staff Software Engineer  
 Projects:   
 
