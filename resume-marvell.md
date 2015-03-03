@@ -12,7 +12,7 @@ An accomplished software engineer specializing in embedded software/hardware des
 ___________________________
 
 ##Working Experience
-- 2012.2  -   Now   [3 years 1 month] IBM CSTL System Networking/GTS SDN 
+- 2012.2  -   Now   [3 years 1 month] IBM CSTL System Networking/CDL SDN 
 - 2009.2  -  2012.2  [3 years] Nanjing ZTE corporation
 - 2008.6  -  2009.2  [8 month] Guangzhou Southern Power Group Technology Development Corporation.
 
@@ -38,7 +38,7 @@ ______________________________
 _______________________________
 
 ##Working experience
-####2014.2  -  now  IBM GTS CDL
+####2014.2  -  now  IBM CDL
 Department: Software Defined Network and Virtual Environment  
 Position: Staff Software Engineer  
 Projects:   
@@ -70,7 +70,7 @@ Projects:
  - Project introduction  
 Stacking is a method of connect two or more physical switch chips to build a larger system that behaves as a single logical entity, to provide high port density, centralized management, redundancy, modularity and flexible, distributed approach for data center network solution.  
  - My works and achivement  
-I was responsible for porting stacking feature to the new hardware platform, the new hardware platform based on the MPC8536 CPU and BCM56840 network ASIC, the OS is IBM specified Linux(MCP); developed low level device drivers for new transceiver(via I2C), optimized port bit mapping, reduced CPU load by separating transceiver management to new thread, and fixed massive bugs about LACP/STP.  
+I was responsible for porting stacking feature to the new hardware platform, the new hardware platform based on the MPC8536 CPU and BCM56840 ASIC, the OS is IBM specified Linux(MCP); developed low level device drivers for new transceiver(via I2C), optimized port bit mapping, reduced CPU load by separating transceiver management to new thread, and fixed massive bugs about LACP/STP.  
 - TOR switch Gryphon stacking  
  - Project introduction  
 Gryphon is IBM's second generation all 10G standalone TOR (Top of Rack) switch.  
