@@ -1,4 +1,4 @@
-Wang Yinfeng - 王银锋
+Wang Yinfeng
 ===============
 Phone: 	**1865-1692-775**  
 Email: **wang.batman@gmail.com**  
