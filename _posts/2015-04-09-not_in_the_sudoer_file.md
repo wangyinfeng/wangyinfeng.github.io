@@ -14,6 +14,7 @@ echo 'myname ALL=(ALL) ALL' >> /etc/sudoer
 Then select `Resume normal boot`.
 
 One of the reference article introduce the command `usermod`, but not work for me. Nothing changed when I run the command.
+
 ```sh
 usermod -a -G root sysadmin
 ```
