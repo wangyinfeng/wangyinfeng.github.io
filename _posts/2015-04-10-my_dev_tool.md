@@ -29,7 +29,8 @@ Connect to my VPC to fuck the GFW.
 ##Git
 ##VirtualBox
 ##MinGW
-##UltraVNC
+##[UltraVNC](http://www.uvnc.com/)
+##[Calibre](http://calibre-ebook.com/)
 
 #Reference
 
