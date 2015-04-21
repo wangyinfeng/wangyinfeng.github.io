@@ -36,6 +36,7 @@ Connect to my VPC to fuck the GFW.
 ##SecureCRT
 ##[Wireshark](https://www.wireshark.org/)
 ##[Youdao Dict](http://dict.youdao.com/)
-
-#Reference
+##[Foxit Reader](http://www.foxitsoftware.com/Secure_PDF_Reader/)
+##[WPS Office](http://www.wps.com/)
+##[Weiyun](http://www.weiyun.com/)
 
