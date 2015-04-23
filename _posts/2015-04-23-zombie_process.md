@@ -11,7 +11,7 @@ category: Linux
 zombie process之所以称为zombie，就是因为已经不live了，杀一个已死的process，逻辑上是不可能的。所以说要destroy比较合适。
 zombie process既然存在，说明程序设计存在问题，或进程管理存在问题，应该从这些方面去查找原因为什么会产生这样的zombie，而不是简单地destroy。
 
-如果非要destroy的话，方法有：
+如果非要destroy的话，方法有：  
 - kill该进程的parent进程
 - 等待，等该zombie进程被init接管，init会定期清理zombie进程
 - 发送SIGCHILD给parent进程
