@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The collection about my personal tools
-category: 
+category: Tool
 ---
 Time to go, and time to collect the useful tools I got in the past years.
 
@@ -17,6 +17,35 @@ And the plugins...
 ###netrw
 
 #For Linux
+
+#For OSX
+##Xcode
+The easy way to get the C compiler and git.
+##[brew](brew.sh)
+
+```sh
+#replace the gem source with local provider
+gem sources -r https://rubygems.org/
+gem sources -a http://ruby.taobao.org/
+gem sources -u
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+##rhc
+RedHat Openshift tools, used to connect the VPS, to fucking the GFW.
+
+##pip
+
+```sh
+sudo easy_install pip
+```
+
+##Crypto library
+The module name is 'crypto' on MAC, but 'Crypto' on others, so install the crypto module by pip will not work on MAC. Install the module by `easy_install` will be OK.
+
+```sh
+sudo easy_install -Z pycrypto
+```
 
 #For Windows
 ##[Chrome](http://www.google.com/chrome/)
