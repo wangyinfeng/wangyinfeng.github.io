@@ -34,6 +34,8 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ##rhc
 RedHat Openshift tools, used to connect the VPS, to fucking the GFW.
 
+To keep the ssh session alive, add `config` file under `~/.ssh/` with the content `ServerAliveInterval 60`, so every 60 seconds the client will send a sign-of-life signal to the server.
+
 ##pip
 
 ```sh
@@ -45,6 +47,12 @@ The module name is 'crypto' on MAC, but 'Crypto' on others, so install the crypt
 
 ```sh
 sudo easy_install -Z pycrypto
+```
+
+Add the following command to a file, [enable automatally reconnection when session drop](http://ju.outofmemory.cn/entry/101752):
+
+```sh
+while true; do ssh -D 1080 -qnNf 54b5fxxxxx@python-mfrc531.rhcloud.com || true; done
 ```
 
 #For Windows
