@@ -49,10 +49,11 @@ The module name is 'crypto' on MAC, but 'Crypto' on others, so install the crypt
 sudo easy_install -Z pycrypto
 ```
 
-Add the following command to a file, [enable automatally reconnection when session drop](http://ju.outofmemory.cn/entry/101752):
+Install `autossh` to enable automatally reconnection when session drop:
 
 ```sh
-while true; do ssh -D 1080 -qnNf 54b5fxxxxx@python-mfrc531.rhcloud.com || true; done
+brew install autossh
+autossh -M 1081 -D 1080 -i /Users/w/.ssh/identification -qNnt 54b5fc@python-mfrc531.rhcloud.com
 ```
 
 #For Windows
