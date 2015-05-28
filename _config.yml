@@ -23,6 +23,11 @@ blog:
     title: I think therefore I am
     url: wangyinfeng.github.io
 
+comments:
+    provider: duoshuo
+    duoshuo:
+        short_name: thinkwang
+
 author:
     name: Leo
     email: wang.batman@gmail.com
