@@ -77,5 +77,5 @@ Connect to my VPC to fuck the GFW.
 ##[Foxit Reader](http://www.foxitsoftware.com/Secure_PDF_Reader/)
 ##[WPS Office](http://www.wps.com/)
 ##[Weiyun](http://www.weiyun.com/)
-
+##[snip - screen capture and editor](https://mix.office.com/Home/SetupSnip)
 
