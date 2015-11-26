@@ -15,6 +15,7 @@ And the plugins...
 ###cscope
 ###taglist
 ###netrw
+##[node.js](http://blogger.gtwang.org/2013/12/install-node-js-in-windows-mac-os-x-linux.html)
 
 #For Linux
 
