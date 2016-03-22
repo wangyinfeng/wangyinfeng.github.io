@@ -39,6 +39,10 @@ Using Bitvise is just similar with the PuTTY:
 - Then at the **login** page, select the **client key** with the new generated profile.
 - Try and enjoy.
 
+##SSH via HTTP proxy
+Intra-net usually allow user access the internet only via http proxy, Bitvise allow SSH to the server via http proxy, on the front page, click the **Proxy setting**, set the proxy.
+
+
 #Serve for Android phone
 The key is let android have ssh client to connect the VPC and provide SOCKS proxy.
 - Download the [sshtunnel](https://code.google.com/p/sshtunnel/) and install, `root` maybe requested.
@@ -52,9 +56,9 @@ The key is let android have ssh client to connect the VPC and provide SOCKS prox
 - Don't understand why just import the private key `id_rsa` is not work. Why need to generate new pair of key.
 
 #Reference
-[Using openshift to fucking the GFW](http://skaypo.blogspot.com/2013/08/openshift-ssh.html)
-[install gem return 'certification verify failed'](http://stackoverflow.com/questions/19745960/unable-to-install-any-gem-by-ruby-in-windows)
-[Using PuTTY and Chrome](http://www.itordie.com/?p=50)
-[Using private/public key to access SSH server with Bitvise](https://www.webhostinghero.com/using-ssh-keys-with-adobe-dreamweaver/)
-[Android using SSH Tunnel](http://www.chekiang.info/2014/04/22.html)
+[Using openshift to fucking the GFW](http://skaypo.blogspot.com/2013/08/openshift-ssh.html)  
+[install gem return 'certification verify  failed'](http://stackoverflow.com/questions/19745960/unable-to-install-any-gem-by-ruby-in-windows)  
+[Using PuTTY and Chrome](http://www.itordie.com/?p=50)  
+[Using private/public key to access SSH server with Bitvise](https://www.webhostinghero.com/using-ssh-keys-with-adobe-dreamweaver/)  
+[Android using SSH Tunnel](http://www.chekiang.info/2014/04/22.html)  
 
