@@ -27,5 +27,5 @@ How the peers talk with each other behind the NAT.
 
 ###reference
 https://www.usenix.org/legacy/event/usenix05/tech/general/full_papers/ford/ford_html/
-
+http://blog.csdn.net/sjin_1314/article/details/18177935
 
