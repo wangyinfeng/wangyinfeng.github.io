@@ -5,7 +5,7 @@ category: UDP
 ---
 How the peers talk with each other behind the NAT.
 
-![UDP hole punching](res/img/udp_hole_punching.png)
+![UDP hole punching](/res/img/udp_hole_punching.png)
 
 * **目的**
 	在NAT设备后面的需要A与B需要通过UDP进行相互通信。  
