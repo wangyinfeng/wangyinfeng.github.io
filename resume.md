@@ -67,7 +67,7 @@ SDN-VE部门
 
 - 基于DOVE及OpenStack的路由应用开发  
     - 项目介绍  
-DOVE(Distributed Overlay Virtual Ethernet)是IBM基于VxLAN开发的SDN解决方案，包括分布式虚拟交换机，网关以及控制器，适用于KVM及VMware虚拟环境。路由应用(Routing Appliance)解决混合云应用中虚拟机相互通信的问题。  
+DOVE(Distributed Overlay Virtual Ethernet)是IBM基于VxLAN开发的SDN解决方案，包括分布式虚拟交换机，网关以及控制器，适用于KVM及VMware虚拟环境。路由应用(Routing Appliance)解决混合云应用中网络互通问题。  
     - 主要工作  
 分布式路由器功能开发以及性能优化；  
 路由应用配置下发及控制器和协议栈之间的配置接口开发；    
